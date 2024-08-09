@@ -1,12 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #323232;
+color: white;
+}
 #content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+h1{
+    text-align: center;
+}
 
 table {
     border-collapse: collapse;
+    border-spacing: 0;
+    border: 5px solid #fff;
+
 }
 
 td {
@@ -18,14 +32,3 @@ td {
     cursor: pointer;
 }
 
-td:hover {
-    background-color: #f0f0f0;
-}
-
-.x {
-    color: red;
-}
-
-.o {
-    color: blue;
-}
